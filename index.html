@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Hariharan's frontend developer portfolio">
+  <title>Hariharan | Frontend Developer</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <nav class="navbar container" aria-label="Main navigation">
+      <a class="logo" href="#home">H<span>.</span></a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Open navigation menu" aria-expanded="false">☰</button>
+      <div class="nav-links" id="navLinks">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section" id="home">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="status-dot"></span> Available for entry-level opportunities</p>
+          <h1>Hello, I'm <span>Hariharan</span></h1>
+          <h2>Frontend Developer</h2>
+          <p class="hero-description">I build clean, responsive, and user-friendly web experiences using HTML, CSS, JavaScript, and React.</p>
+          <div class="hero-actions">
+            <a class="button primary-button" href="#projects">View Projects <span aria-hidden="true">↗</span></a>
+            <a class="button secondary-button" href="Hariharan-Resume.pdf" download>Download Resume <span aria-hidden="true">↓</span></a>
+          </div>
+          <div class="hero-socials">
+            <!-- Replace the # links below with your real profile URLs. -->
+            <a href="https://github.com/" target="_blank" rel="noreferrer">GitHub ↗</a>
+            <a href="https://www.linkedin.com/" target="_blank" rel="noreferrer">LinkedIn ↗</a>
+            <a href="mailto:your.email@example.com">Email ↗</a>
+          </div>
+        </div>
+        <div class="hero-art" aria-label="Decorative code illustration">
+          <div class="code-window">
+            <div class="window-top"><span></span><span></span><span></span><small>developer.js</small></div>
+            <div class="code-lines">
+              <p><span class="code-purple">const</span> developer = {</p>
+              <p class="indent"><span class="code-blue">name</span>: <span class="code-green">'Hariharan'</span>,</p>
+              <p class="indent"><span class="code-blue">role</span>: <span class="code-green">'Frontend Developer'</span>,</p>
+              <p class="indent"><span class="code-blue">learning</span>: <span class="code-green">'Every day'</span>,</p>
+              <p class="indent"><span class="code-blue">build</span>: <span class="code-green">'Useful things'</span></p>
+              <p>};</p>
+              <p class="code-comment">// Turning ideas into interfaces.</p>
+            </div>
+            <div class="code-badge"><span>✦</span> Curious mind. Clean code.</div>
+          </div>
+          <div class="floating-chip chip-html">HTML5</div>
+          <div class="floating-chip chip-css">CSS3</div>
+          <div class="floating-chip chip-js">JS</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="about">
+      <div class="container section-grid">
+        <div>
+          <p class="section-kicker">GET TO KNOW ME</p>
+          <h2 class="section-title">About <span>me</span></h2>
+        </div>
+        <div class="about-content">
+          <p>I am a BCA graduate and an aspiring Frontend Developer based in Chennai. I enjoy creating responsive websites and learning how to make web experiences more useful and accessible.</p>
+          <p>I have completed Full Stack Web Development training at FITA Academy and am looking for an entry-level opportunity where I can learn, contribute, and grow as a developer.</p>
+          <div class="about-facts">
+            <div><strong>2026</strong><span>Graduate</span></div>
+            <div><strong>BCA</strong><span>Education</span></div>
+            <div><strong>FITA</strong><span>Training</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-muted" id="skills">
+      <div class="container">
+        <p class="section-kicker">WHAT I WORK WITH</p>
+        <h2 class="section-title">My <span>skills</span></h2>
+        <p class="section-intro">Technologies I use and continue to improve through practice and projects.</p>
+        <div class="skills-grid">
+          <article class="skill-card"><div class="skill-icon html-icon">5</div><h3>HTML5</h3><p>Semantic page structure</p></article>
+          <article class="skill-card"><div class="skill-icon css-icon">✳</div><h3>CSS3</h3><p>Responsive layouts and styling</p></article>
+          <article class="skill-card"><div class="skill-icon js-icon">JS</div><h3>JavaScript</h3><p>DOM and interactive features</p></article>
+          <article class="skill-card"><div class="skill-icon react-icon">⚛</div><h3>React.js</h3><p>Component-based interfaces</p></article>
+          <article class="skill-card"><div class="skill-icon python-icon">Py</div><h3>Python</h3><p>Programming fundamentals</p></article>
+        </div>
+        <div class="certification"><span class="cert-icon">✦</span><div><strong>Certification</strong><p>Full Stack Web Development — FITA Academy</p></div></div>
+      </div>
+    </section>
+
+    <section class="section" id="projects">
+      <div class="container">
+        <p class="section-kicker">SELECTED WORK</p>
+        <h2 class="section-title">Featured <span>projects</span></h2>
+        <p class="section-intro">Replace these sample descriptions and links with your own project details.</p>
+        <div class="projects-grid">
+          <article class="project-card">
+            <div class="project-preview preview-travel"><span class="preview-label">01 / WEB DESIGN</span><div class="preview-mock"><span class="mock-logo">wander.</span><div class="mock-heading">Find your<br>next escape.</div><div class="mock-pill">Explore destinations ↗</div></div></div>
+            <div class="project-body"><div class="project-heading"><h3>Travel Website</h3><span class="project-number">01</span></div><p>A responsive travel website concept with destination cards, search, and a booking form.</p><div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div><div class="project-links"><a href="https://github.com/" target="_blank" rel="noreferrer">GitHub ↗</a><a href="#contact">Live demo soon ↗</a></div></div>
+          </article>
+          <article class="project-card">
+            <div class="project-preview preview-shop"><span class="preview-label">02 / FRONTEND</span><div class="shop-mock"><span class="shop-label">NEW COLLECTION</span><div class="shop-shape"></div><div class="shop-text">Everyday<br>essentials.</div></div></div>
+            <div class="project-body"><div class="project-heading"><h3>E-commerce Website</h3><span class="project-number">02</span></div><p>A product showcase with category sections, product cards, and simple JavaScript interactions.</p><div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div><div class="project-links"><a href="https://github.com/" target="_blank" rel="noreferrer">GitHub ↗</a><a href="#contact">Live demo soon ↗</a></div></div>
+          </article>
+          <article class="project-card">
+            <div class="project-preview preview-tracker"><span class="preview-label">03 / PYTHON PROJECT</span><div class="tracker-mock"><div class="tracker-side"></div><div class="tracker-main"><span class="tracker-top">APPLICATIONS</span><div class="tracker-stat"></div><div class="tracker-stat short"></div><div class="tracker-stat"></div></div></div></div>
+            <div class="project-body"><div class="project-heading"><h3>Job Application Tracker</h3><span class="project-number">03</span></div><p>A Django project concept for recording job applications and tracking their status.</p><div class="tags"><span>Python</span><span>Django</span><span>SQLite</span></div><div class="project-links"><a href="https://github.com/" target="_blank" rel="noreferrer">GitHub ↗</a><a href="#contact">Project details ↗</a></div></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section contact-section" id="contact">
+      <div class="container contact-panel">
+        <div><p class="section-kicker">LET'S CONNECT</p><h2 class="section-title">Have an opportunity?<br><span>Let's talk.</span></h2><p class="contact-copy">I am interested in fresher Frontend Developer roles and internships. Feel free to reach out.</p></div>
+        <div class="contact-actions"><a class="button primary-button" href="mailto:your.email@example.com">Email me ↗</a><a class="button secondary-button" href="https://www.linkedin.com/" target="_blank" rel="noreferrer">Connect on LinkedIn ↗</a><p class="small-note">Remember to update these links with your real contact details.</p></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer"><div class="container footer-inner"><a class="logo" href="#home">H<span>.</span></a><p>Designed and built by Hariharan · <span id="year"></span></p><a href="#home">Back to top ↑</a></div></footer>
+</body>
+</html>
